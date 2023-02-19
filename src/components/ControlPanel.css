@@ -1,0 +1,154 @@
+@media (max-width: 350px) {
+	.btns {
+		grid-template-columns: auto auto auto;
+		grid-template-rows: auto auto;
+	}
+}
+
+@media (min-width: 350px) {
+	.btns {
+		grid-template-columns: auto auto auto auto;
+	grid-template-rows: auto auto;
+	}
+}
+
+.btns {
+	display: grid;
+	gap: 10px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.btns div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.btns div span {
+	width: 8vw;
+	height: 8vw;
+	display: block;
+}
+
+.btns div p {
+	margin: 0;
+	margin-top: 5px;
+}
+
+.qr {
+	background: url(https://i.imgur.com/9myPor3.png) no-repeat top left;
+	background-size: contain;
+	background-position: center center;
+}
+
+.bank {
+	background: url(https://imgur.com/2bfCYNX.png) no-repeat top left;
+	background-size: contain;
+	background-position: center center;
+}
+
+.payments {
+	background: url(https://imgur.com/92qQUnl.png) no-repeat top left;
+	background-size: contain;
+	background-position: center center;
+}
+
+.transfers {
+	background: url(https://imgur.com/PhIl9h9.png) no-repeat top left;
+	background-size: contain;
+	background-position: center center;
+}
+
+.shop {
+	background: url(https://imgur.com/dSnvG9f.png) no-repeat top left;
+	background-size: contain;
+	background-position: center center;
+}
+
+.travel {
+	background: url(https://imgur.com/1iqIrxr.png) no-repeat top left;
+	background-size: contain;
+	background-position: center center;
+}
+
+.gov {
+	background: url(https://imgur.com/nuDNeP7.png) no-repeat top left;
+	background-size: contain;
+	background-position: center center;
+}
+
+.ads {
+	background: url(https://imgur.com/Sfrag3K.png) no-repeat top left;
+	background-size: contain;
+	background-position: center center;
+}
+
+.magnum {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 1px solid rgb(241, 241, 241);
+	border-bottom: 1px solid rgb(241, 241, 241);
+	padding: 8px;
+}
+
+.info-container {
+	display: inherit;
+}
+
+.magnum img {
+	margin-right: 10px;
+}
+
+.magnum h6 {
+	font-weight: 500;
+	margin: 0;
+	font-size: 14px;
+}
+
+.magnum p {
+	font-size: 12px;
+	opacity: 0.6;
+	margin: 0;
+}
+
+.magnum span {
+	background: url(https://imgur.com/PMhFu8z.png) no-repeat top left;
+	background-size: contain;
+	background-position: center center;
+	width: 16px;
+	height: 16px;
+	margin-left: 10px;
+}
+
+.money-offers-container {
+	display: flex;
+	margin: 12px;
+}
+
+.moc-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.money-offers-container img {
+	height: 35px;
+	margin-right: 12px;
+}
+
+.money-offers-container h6 {
+	font-weight: 400;
+	margin: 0;
+	font-size: 16px;
+	min-width: 100px;
+}
+
+.money-offers-container p {
+	font-size: 12px;
+	opacity: 0.6;
+	margin: 0;
+	min-width: 100px;
+}

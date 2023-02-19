@@ -1,0 +1,25 @@
+header {
+	display: flex;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	align-items: center;
+	box-shadow: 0 2px 1px rgb(231, 231, 231);
+	background-color: #fff;
+	z-index: 1;
+	padding: 12px;
+}
+
+header input {
+	background: url(https://i.imgur.com/3ULzgbi.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	background-size: 16px;
+	width: 100%;
+	height: 35px;
+	border: none;
+	background-color: rgb(241, 241, 241);
+	border-radius: 6px;
+	padding-left: 40px;
+}
